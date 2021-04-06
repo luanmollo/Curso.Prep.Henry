@@ -62,7 +62,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x==y){
+  if (x===y){
     return true;
   }
   else{
@@ -74,7 +74,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.length == str2.length){
+  if (str1.length === str2.length){
     return true;
   }  
   else{
@@ -117,7 +117,7 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   var test = num % 2;
-  if (test == 0){
+  if (test === 0){
     return true;
   }
   else{
@@ -129,7 +129,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ((num % 2) == 0){
+  if ((num % 2) === 0){
     return false;
   }
   else{
@@ -252,19 +252,19 @@ function esVocal(letra){
   if (letra.length > 1){
     return "Dato incorrecto";
   }
-  else if (letra == "a") {
+  else if (letra === "a") {
     return "Es vocal";
   }
-  else if (letra == "e"){
+  else if (letra === "e"){
     return "Es vocal";
   }
-  else if (letra == "i"){
+  else if (letra === "i"){
     return "Es vocal";
   }
-  else if (letra == "o"){
+  else if (letra === "o"){
     return "Es vocal";
   }
-  else if (letra == "u"){
+  else if (letra === "u"){
     return "Es vocal";
   }
   else {
