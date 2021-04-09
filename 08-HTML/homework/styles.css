@@ -1,0 +1,36 @@
+h1 {
+	color: lightblue;
+}
+
+
+img {
+	width: 400px;
+}
+
+.divClass {
+	text-align: center;
+}
+
+.padre {
+	display: flex;
+	align-items: center;
+ 	justify-content: center;
+}
+
+#thirdDiv {
+	
+	height: 600px;
+	max-width: 500px;
+	background-color: lightgrey;
+	padding: 50px;
+	border: 1px solid black;
+	
+	
+}
+
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+
+}
+
