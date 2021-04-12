@@ -1,0 +1,118 @@
+html, body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+}
+
+
+.header{
+	display: flex;	
+ 	justify-content: flex-start;
+ 	align-items: center;
+ 	
+	background-color: #15D186;
+	height: 10%;
+	min-height: 50px;
+
+}
+
+#nombre {
+	margin-left: 1%;
+	font-family: "Nanum Gothic Coding", monospace;
+	font-weight: 400;
+	color: #061538;
+}
+
+.padreHorizontal {
+	display: flex;
+	height: 90%;
+	
+	
+}
+
+.divIzq {
+	height: 100%;
+	width: 16%;
+	min-width: 250px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+	
+	
+
+
+	
+
+}
+
+.divDer {
+	height: 100%;
+	width: 84%;
+	min-width: 400px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	
+
+	
+
+
+	
+}
+
+#profilePic {
+	min-height: 180px;
+	min-width: 180px;
+	height: 220px;
+	width: 220px;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.contenedorIzq {
+	margin: 10px;
+}
+
+.contenedorDer {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 60%;
+	min-width: 380px;
+
+
+}
+
+
+.contenido {
+	margin: 15px;
+	font-family: "Nanum Gothic Coding", monospace;
+	
+}
+
+.contenidoTitulo {
+	margin: 15px;
+	font-family: "Nanum Gothic Coding", monospace;
+	border-bottom: 1px solid black;
+}
+
+#tituloDescripcion {
+	border: 0;
+	color: white;
+	background-color: #061538;
+	padding: 10px;
+	font-family: "Nanum Gothic Coding", monospace;
+	
+}
